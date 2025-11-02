@@ -20,7 +20,7 @@ Install the required R packages:
 ```r
 install.packages(c(
   "shiny", "leaflet", "leaflet.extras", "DT", "dplyr", 
-  "plotly", "sp", "shinycssloaders", "readxl"
+  "plotly", "sp", "shinycssloaders", "readxl", "jsonlite"
 ))
 ```
 
