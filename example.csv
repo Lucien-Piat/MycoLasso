@@ -1,101 +1,101 @@
-id,forest_name,mushroom_name,group,latitude,longitude,family
-1,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8967","-1,1134",Boletaceae
-2,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8623","-1,0789",Boletaceae
-3,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,9011","-1,0956",Boletaceae
-4,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8754","-1,1212",Boletaceae
-5,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8588","-1,0834",Boletaceae
-6,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8921","-1,1001",Boletaceae
-7,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8699","-1,0678",Boletaceae
-8,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8812","-1,1302",Boletaceae
-9,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8732","-1,0911",Boletaceae
-10,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8998","-1,0887",Boletaceae
-11,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8655","-1,1176",Boletaceae
-12,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8887","-1,0723",Boletaceae
-13,Forêt du Porge,Cèpe de Bordeaux,Edible,NA,"-1,1098",Boletaceae
-14,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,9043","-1,0923",Boletaceae
-15,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8776","-1,1254",Boletaceae
-16,Forêt du Porge,Amanite phalloïde,Toxic,"44,8612","-1,0876",Amanitaceae
-17,Forêt du Porge,Amanite phalloïde,Toxic,"44,8834","-1,1043",Amanitaceae
-18,Forêt du Porge,Amanite phalloïde,Toxic,"44,8956","-1,0765",Amanitaceae
-19,Forêt du Porge,Amanite phalloïde,Toxic,"44,8712","-1,1198",Amanitaceae
-20,Forêt du Porge,Girolle,Edible,"44,8788","-1,0932",Cantharellaceae
-21,Forêt du Porge,Girolle,Edible,"44,8633","-1,1234",?
-22,Forêt du Porge,Girolle,Edible,"44,8901","-1,0811",Cantharellaceae
-23,NA,Bolet bai,Edible,"44,8822","-1,1021",Boletaceae
-24,Forêt du Porge,Bolet bai,Edible,"44,8576","-1,0712",Boletaceae
-25,Forêt du Porge,Bolet bai,Edible,"44,8987","-1,0988",Boletaceae
-26,Forêt du Porge,Pied-de-mouton,Edible,"44,8745","-1,0856",Hydnaceae
-27,Forêt du Porge,Pied-de-mouton,Edible,"44,8665","-1,1111",Hydnaceae
-28,Forêt du Porge,Pied-de-mouton,Edible,"44,8867","-1,0798",Hydnaceae
-29,Forêt du Porge,Amanite panthère,Toxic,"44,8932","-1,1087",Amanitaceae
-30,Forêt du Porge,Amanite panthère,Toxic,"44,8599","-1,0965",Amanitaceae
-31,Forêt du Porge,Amanite panthère,Toxic,"44,8801","-1,1278",Amanitaceae
-32,Forêt du Porge,Amanite panthère,Toxic,"44,8721","-1,0745",Amanitaceae
-33,Forêt du Porge,Amanite panthère,Toxic,"44,8643","-1,1032",Amanitaceae
-34,Forêt du Porge,Cèpe de Bordeaux,Edible,"44,8854","-1,0901",Boletaceae
-35,Forêt du Porge,Bolet bai,Edible,"44,8767","-1,1154",Boletaceae
-36,Forêt de Cestas,Girolle,Edible,"44,7623","-0,7689",Cantharellaceae
-37,Forêt de Cestas,Girolle,Edible,"44,7455","-0,7311",Cantharellaceae
-38,Forêt de Cestas,Girolle,Edible,"44,7701","-0,7567",Cantharellaceae
-39,Forêt de Cestas,Girolle,Edible,"44,7389","-0,7834",Cantharellaceae
-40,Forêt de Cestas,Girolle,Edible,"44,7567","-0,7456",Cantharellaceae
-41,Forêt de Cestas,Girolle,Edible,"44,7298","-0,7612",Cantharellaceae
-42,Forêt de Cestas,Girolle,Edible,"44,7512","-0,7723",Cantharellaceae
-43,Forêt de Cestas,Girolle,Edible,"44,7687","-0,7298",Cantharellaceae
-44,Forêt de Cestas,Girolle,Edible,"44,7432","-0,7501",Cantharellaceae
-45,Forêt de Cestas,Girolle,Edible,"44,7599","-0,7887",Cantharellaceae
-46,Forêt de Cestas,Girolle,Edible,"44,7356","-0,7423",Cantharellaceae
-47,Forêt de Cestas,Girolle,Edible,"44,7634","-0,7654",Cantharellaceae
-48,Forêt de Cestas,Girolle,Edible,"44,7487","-0,7388",Cantharellaceae
-49,Forêt de Cestas,Girolle,Edible,"44,7532","-0,7599",Cantharellaceae
-50,Forêt de Cestas,Girolle,Edible,"44,7411","-0,7777",Cantharellaceae
-51,Forêt de Cestas,Amanite tue-mouches,Toxic,"44,7523","-0,7432",Amanitaceae
-52,Forêt de Cestas,Amanite tue-mouches,Toxic,"44,7654","-0,7698",Amanitaceae
-53,Forêt de Cestas,Amanite tue-mouches,Toxic,"44,7398","-0,7512",Amanitaceae
-54,Forêt de Cestas,Amanite tue-mouches,Toxic,"44,7588","-0,7356",Amanitaceae
-55,Forêt de Cestas,Trompette de la mort,Edible,"44,7476","-0,7712",Cantharellaceae
-56,Forêt de Cestas,Trompette de la mort,Edible,"44,7612","-0,7489",Cantharellaceae
-57,Forêt de Cestas,Trompette de la mort,Edible,"44,7321","-0,7643",Cantharellaceae
-58,Forêt de Cestas,Lépiote élevée,Edible,"44,7555","-0,7555",Agaricaceae
-59,Forêt de Cestas,Lépiote élevée,Edible,"44,7444","-0,7333",Agaricaceae
-60,Forêt de Cestas,Lépiote élevée,Edible,"44,7678","-0,7788",Agaricaceae
-61,Forêt de Cestas,Coprin chevelu,Edible,"44,7365","-0,7499",Agaricaceae
-62,Forêt de Cestas,Coprin chevelu,Edible,"44,7501","-0,7811",Agaricaceae
-63,Forêt de Cestas,Coprin chevelu,Edible,"44,7621","-0,7399",Agaricaceae
-64,Forêt de Cestas,Cèpe de Bordeaux,Edible,"44,7499","-0,7534",Boletaceae
-65,Forêt de Cestas,Cèpe de Bordeaux,Edible,"44,7576","-0,7665",Boletaceae
-66,Forêt de Cestas,Cèpe de Bordeaux,Edible,"44,7345","-0,7443",Boletaceae
-67,Forêt de Cestas,Cèpe de Bordeaux,Edible,"44,7643","-0,7587",Boletaceae
-68,Forêt de Cestas,Amanite tue-mouches,Toxic,"44,7511","-0,7632",Amanitaceae
-69,Forêt de Cestas,Girolle,Edible,"44,7465","-0,7476",Cantharellaceae
-70,Forêt de Cestas,Trompette de la mort,Edible,"44,7533","-0,7745",Cantharellaceae
-71,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7823","-0,3689",Amanitaceae
-72,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7655","-0,3311",Amanitaceae
-73,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7901","-0,3567",Amanitaceae
-74,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7589","-0,3834",Amanitaceae
-75,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7767","-0,3456",Amanitaceae
-76,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7498","-0,3612",Amanitaceae
-77,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7712","-0,3723",Amanitaceae
-78,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7887","-0,3298",Amanitaceae
-79,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7632","-0,3501",Amanitaceae
-80,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7799","-0,3887",Amanitaceae
-81,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7556","-0,3423",Amanitaceae
-82,Forêt de Créon,Amanite tue-mouches,Toxic,"44,7834","-0,3654",Amanitaceae
-83,Forêt de Créon,Pied bleu,Edible,"44,7687","-0,3388",Tricholomataceae
-84,Forêt de Créon,Pied bleu,Edible,"44,7532","-0,3599",Tricholomataceae
-85,Forêt de Créon,Pied bleu,Edible,"44,7745","-0,3777",Tricholomataceae
-86,Forêt de Créon,Pied bleu,Edible,"44,7611","-0,3411",Tricholomataceae
-87,Forêt de Créon,Lactaire délicieux,Edible,"44,7723","-0,3632",Russulaceae
-88,Forêt de Créon,Lactaire délicieux,Edible,"44,7854","-0,3398",Russulaceae
-89,Forêt de Créon,Lactaire délicieux,Edible,"44,7598","-0,3512",Russulaceae
-90,Forêt de Créon,Entolome livide,Toxic,"44,7676","-0,3756",Entolomataceae
-91,Forêt de Créon,Entolome livide,Toxic,"44,7788","-0,3356",Entolomataceae
-92,Forêt de Créon,Entolome livide,Toxic,"44,7521","-0,3643",Entolomataceae
-93,Forêt de Créon,Russule charbonnière,Edible,"44,7812","-0,3587",Russulaceae
-94,Forêt de Créon,Russule charbonnière,Edible,"44,7643","-0,3287",Russulaceae
-95,Forêt de Créon,Russule charbonnière,Edible,"44,7732","-0,3488",Russulaceae
-96,Forêt de Créon,Cortinaire couleur de rocou,Toxic,"44,7565","-0,3712",Cortinariaceae
-97,Forêt de Créon,Cortinaire couleur de rocou,Toxic,"44,7801","-0,3445",Cortinariaceae
-98,Forêt de Créon,Cortinaire couleur de rocou,Toxic,"44,7665","-0,3533",Cortinariaceae
-99,Forêt de Créon,Pied bleu,Edible,"44,7756","-0,3601",Tricholomataceae
-100,Forêt de Créon,Lactaire délicieux,Edible,"44,7698","-0,3333",Russulaceae
+id,mushroom_name,forest_name,group,latitude,longitude,family
+1,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7491135633032","-0,770059205849063",Boletaceae
+2,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7472274358209","-0,792441426852346",Boletaceae
+3,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,743633967321","-0,779857792048034",Boletaceae
+4,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7440372131828","-0,781480905805176",Boletaceae
+5,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7446399886673","-0,786350144803523",Boletaceae
+6,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7478043603673","-0,784731519069378",Boletaceae
+7,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7463137352847","-0,789142196287546",Boletaceae
+8,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7442124878649","-0,784292712630754",Boletaceae
+9,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7477091274108","-0,783330666789381",Boletaceae
+10,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7442587889857","-0,785502484679019",Boletaceae
+11,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7417765208282","-0,779921841438189",Boletaceae
+12,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7381092766661","-0,778814909413478",Boletaceae
+13,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7493475593165","-0,77730593175706",Boletaceae
+14,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7477219067331","-0,784741216991905",Boletaceae
+15,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7465321759706","-0,782606255807427",Boletaceae
+16,Amanite phalloïde,Forêt de Peirroton ,Toxic,"44,7485275847597","-0,777255795791004",Amanitaceae
+17,Amanite phalloïde,Forêt de Peirroton ,Toxic,"44,7472485433866","-0,784521191026243",Amanitaceae
+18,Amanite phalloïde,Forêt de Peirroton ,Toxic,"44,7442944460677","-0,781521204850206",Amanitaceae
+19,Amanite phalloïde,Forêt de Peirroton ,Toxic,"44,7478136457165","-0,781798126478799",Amanitaceae
+20,Girolle,Forêt de Peirroton ,Edible,"44,7490605278051","-0,77269415032943",Cantharellaceae
+21,Girolle,Forêt de Peirroton ,Edible,"44,7489082497664","-0,776404119358536",?
+22,Girolle,Forêt de Peirroton ,Edible,"44,7449216172054","-0,773879172784522",Cantharellaceae
+23,Bolet bai,Forêt de Peirroton ,Edible,"44,7425705583195","-0,775474537345662",Boletaceae
+24,Bolet bai,Forêt de Peirroton ,Edible,"44,7438169273851","-0,783445848705617",Boletaceae
+25,Bolet bai,Forêt de Peirroton ,Edible,"44,7482591373113","-0,77209952647598",Boletaceae
+26,Pied-de-mouton,Forêt de Peirroton ,Edible,"44,7492505759488","-0,774016046169684",Hydnaceae
+27,Pied-de-mouton,Forêt de Peirroton ,Edible,"44,7382941788529","-0,776398942368865",Hydnaceae
+28,Pied-de-mouton,Forêt de Peirroton ,Edible,"44,7479776206613","-0,789563288047875",Hydnaceae
+29,Amanite panthère,Forêt de Peirroton ,Toxic,"44,7440443799125","-0,779691052351311",Amanitaceae
+30,Amanite panthère,Forêt de Peirroton ,Toxic,"44,7468789866374","-0,786429725036659",Amanitaceae
+31,Amanite panthère,Forêt de Peirroton ,Toxic,"44,7449451858272","-0,786896766951889",Amanitaceae
+32,Amanite panthère,Forêt de Peirroton ,Toxic,"44,7443565467527","-0,786161982886417",Amanitaceae
+33,Amanite panthère,Forêt de Peirroton ,Toxic,"44,7518200228122","-0,770240613402896",Amanitaceae
+34,Cèpe de Bordeaux,Forêt de Peirroton ,Edible,"44,7488603576802","-0,773361596906861",Boletaceae
+35,Bolet bai,Forêt de Peirroton ,Edible,"44,7422493662495","-0,783801585212601",Boletaceae
+36,Girolle,Forêt du Blagon,Edible,"44,773262625745","-0,944947046277168",Cantharellaceae
+37,Girolle,Forêt du Blagon,Edible,"44,7633824110867","-0,951757226549144",Cantharellaceae
+38,Girolle,Forêt du Blagon,Edible,"44,7687816879134","-0,968303141915183",Cantharellaceae
+39,Girolle,Forêt du Blagon,Edible,"44,7757203999047","-0,968382602118703",Cantharellaceae
+40,Girolle,Forêt du Blagon,Edible,"44,7786329747257","-0,933052304143947",Cantharellaceae
+41,Girolle,Forêt du Blagon,Edible,"44,7696291095715","-0,954886882266553",Cantharellaceae
+42,Girolle,Forêt du Blagon,Edible,"44,7673783389886","-0,950170180703378",Cantharellaceae
+43,Girolle,Forêt du Blagon,Edible,"44,7751586954375","-0,954282460389297",Cantharellaceae
+44,Girolle,Forêt du Blagon,Edible,"44,775104334942","-0,960910962300652",Cantharellaceae
+45,Girolle,Forêt du Blagon,Edible,"44,7702833136138","-0,965435429103104",Cantharellaceae
+46,Girolle,Forêt du Blagon,Edible,"44,7735780667752","-0,953997032622551",Cantharellaceae
+47,Girolle,Forêt du Blagon,Edible,"44,7737045120301","-0,953161274706126",Cantharellaceae
+48,Girolle,Forêt du Blagon,Edible,"44,7711176280763","-0,930923857414519",Cantharellaceae
+49,Girolle,Forêt du Blagon,Edible,"44,7782589918575","-0,944625001718213",Cantharellaceae
+50,Girolle,Forêt du Blagon,Edible,"44,7781041863761","-0,967668305668113",Cantharellaceae
+51,Amanite tue-mouches,Forêt du Blagon,Toxic,"44,7633089104951","-0,953584267107928",Amanitaceae
+52,Amanite tue-mouches,Forêt du Blagon,Toxic,"44,7643358161221","-0,957329290734764",Amanitaceae
+53,Amanite tue-mouches,Forêt du Blagon,Toxic,"44,775198801673","-0,941188613909871",Amanitaceae
+54,Amanite tue-mouches,Forêt du Blagon,Toxic,"44,7799808071514","-0,942663382490531",Amanitaceae
+55,Trompette de la mort,Forêt du Blagon,Edible,"44,7725839518622","-0,973918498393556",Cantharellaceae
+56,Trompette de la mort,Forêt du Blagon,Edible,"44,7661871335263","-0,957474548007116",Cantharellaceae
+57,Trompette de la mort,Forêt du Blagon,Edible,"44,7740262831813","-0,93294213993099",Cantharellaceae
+58,Lépiote élevée,Forêt du Blagon,Edible,"44,7771237294254","-0,970197188287751",Agaricaceae
+59,Lépiote élevée,Forêt du Blagon,Edible,"44,7756752547104","-0,936053494410861",Agaricaceae
+60,Lépiote élevée,Forêt du Blagon,Edible,"44,7673479890115","-0,962546706753056",Agaricaceae
+61,Coprin chevelu,Forêt du Blagon,Edible,"44,7649334593811","-0,965195215175865",Agaricaceae
+62,Coprin chevelu,Forêt du Blagon,Edible,"44,7650235159133","-0,951433942995049",Agaricaceae
+63,Coprin chevelu,Forêt du Blagon,Edible,"44,7765248006718","-0,965026492298479",Agaricaceae
+64,Cèpe de Bordeaux,Forêt du Blagon,Edible,"44,778948800395","-0,947771208940388",Boletaceae
+65,Cèpe de Bordeaux,Forêt du Blagon,Edible,"44,7757285917593","-0,935038636557582",Boletaceae
+66,Cèpe de Bordeaux,Forêt du Blagon,Edible,"44,7662742089006","-0,957540977168537",Boletaceae
+67,Cèpe de Bordeaux,Forêt du Blagon,Edible,"44,7773196115743","-0,974244065724232",Boletaceae
+68,Amanite tue-mouches,Forêt du Blagon,Toxic,"44,7762503919164","-0,96685570369293",Amanitaceae
+69,Girolle,Forêt du Blagon,Edible,"44,7710928023224","-0,938157248155023",Cantharellaceae
+70,Trompette de la mort,Forêt du Blagon,Edible,"44,7754715038502","-0,960114577143091",Cantharellaceae
+71,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7648143796943","-1,09869051112066",Amanitaceae
+72,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7592583628665","-1,10297778304473",Amanitaceae
+73,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7636559032273","-1,09926319379747",Amanitaceae
+74,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7647782828706","-1,09124660506006",Amanitaceae
+75,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7690446646618","-1,09627918204088",Amanitaceae
+76,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7679721075615","-1,0979145802742",Amanitaceae
+77,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7602960519975","-1,11374847045772",Amanitaceae
+78,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7593479226042","-1,1036997389234",Amanitaceae
+79,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7557886577989","-1,1045312347863",Amanitaceae
+80,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7583199125568","-1,09981191481189",Amanitaceae
+81,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7600936701461","-1,11344966055012",Amanitaceae
+82,Amanite tue-mouches,Forêt du Coulin,Toxic,"44,7638225565877","-1,10592125411886",Amanitaceae
+83,Pied bleu,Forêt du Coulin,Edible,"44,769838117745","-1,09714987265069",Tricholomataceae
+84,Pied bleu,Forêt du Coulin,Edible,"44,7662942129063","-1,10024899748307",Tricholomataceae
+85,Pied bleu,Forêt du Coulin,Edible,"44,7649019916332","-1,09448368456536",Tricholomataceae
+86,Pied bleu,Forêt du Coulin,Edible,"44,7609674608729","-1,11160184788593",Tricholomataceae
+87,Lactaire délicieux,Forêt du Coulin,Edible,"44,7687392043849","-1,09871956264438",Russulaceae
+88,Lactaire délicieux,Forêt du Coulin,Edible,"44,7650057227892","-1,09907762237378",Russulaceae
+89,Lactaire délicieux,Forêt du Coulin,Edible,"44,7603887401604","-1,10220414489992",Russulaceae
+90,Entolome livide,Forêt du Coulin,Toxic,"44,7611203622566","-1,11538055522357",Entolomataceae
+91,Entolome livide,Forêt du Coulin,Toxic,"44,7661724790754","-1,10228359920984",Entolomataceae
+92,Entolome livide,Forêt du Coulin,Toxic,"44,7631872660019","-1,10732660993275",Entolomataceae
+93,Russule charbonnière,Forêt du Coulin,Edible,"44,7543921512882","-1,1093726310791",Russulaceae
+94,Russule charbonnière,Forêt du Coulin,Edible,"44,7592160414503","-1,10530237940878",Russulaceae
+95,Russule charbonnière,Forêt du Coulin,Edible,"44,7566248671659","-1,10514099961055",Russulaceae
+96,Cortinaire couleur de rocou,Forêt du Coulin,Toxic,"44,7572767147202","-1,10420075780664",Cortinariaceae
+97,Cortinaire couleur de rocou,Forêt du Coulin,Toxic,"44,7635676299175","-1,09586076214035",Cortinariaceae
+98,Cortinaire couleur de rocou,Forêt du Coulin,Toxic,"44,7617292137419","-1,09433324984298",Cortinariaceae
+99,Pied bleu,Forêt du Coulin,Edible,"44,7578478064943","-1,10558559842158",Tricholomataceae
+100,Lactaire délicieux,Forêt du Coulin,Edible,"44,7594792462744","-1,11510220947024",Russulaceae
