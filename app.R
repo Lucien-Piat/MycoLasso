@@ -1,4 +1,4 @@
-# MycoLasso - Interactive Spatial Data Mapping & Lasso Selection Tool
+# MycoLasso v0.0.2 - Interactive Spatial Data Mapping & Lasso Selection Tool
 # Created by: Lucien PIAT, Bioinformatician
 # License: MIT - Free of use and distribution
 
@@ -11,10 +11,11 @@ library(plotly)
 library(sp)
 library(shinycssloaders)
 library(readxl)
+library(jsonlite)
 
 # Check if required packages are installed
 required_packages <- c("shiny", "leaflet", "leaflet.extras", "DT", 
-                       "dplyr", "plotly", "sp", "shinycssloaders", "readxl")
+                       "dplyr", "plotly", "sp", "shinycssloaders", "readxl", "jsonlite")
 missing_packages <- required_packages[!required_packages %in% installed.packages()[,"Package"]]
 
 if(length(missing_packages) > 0) {
