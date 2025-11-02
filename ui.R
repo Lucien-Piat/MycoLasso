@@ -31,36 +31,57 @@ ui <- fluidPage(
         margin-top: 5px;
       }
       
-      /* Enhanced Sidebar styling - MORE SPECIFIC SELECTORS */
+      /* Enhanced Sidebar styling */
       .col-sm-3 {
         background-color: #1a1a1a !important;
       }
       
-      /* Target the actual sidebar panel specifically */
       .sidebar, .sidebar-panel, .well {
-        background-color: #252525 !important; /* Soft dark gray, easier on eyes */
+        background-color: #252525 !important;
         border: 1px solid #3a3a3a !important;
         border-radius: 8px !important;
         box-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
         padding: 20px !important;
       }
       
-      /* Override Bootstrap's well class specifically */
       .well-sm, .well-lg {
         background-color: #252525 !important;
         border: 1px solid #3a3a3a !important;
       }
       
-      /* Target Shiny's sidebar panel more specifically */
       div[class*='col-sm-3'] > .well {
         background-color: #252525 !important;
         border: 1px solid #3a3a3a !important;
       }
       
-      /* Force background on all form groups in sidebar */
       .sidebar .form-group,
       .well .form-group {
         background-color: transparent !important;
+      }
+      
+      /* Reduce margin for file input */
+      .upload-section .form-group {
+        margin-bottom: 10px !important;
+      }
+      
+      .upload-section .form-group:first-child {
+        margin-bottom: 5px !important;
+      }
+      
+      .annotation-section .form-group {
+        margin-bottom: 10px !important;
+      }
+      
+      /* Button row styling */
+      .button-row {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      
+      .button-row .btn {
+        flex: 1;
+        width: auto !important;
       }
       
       .btn-warning {
@@ -77,8 +98,39 @@ ui <- fluidPage(
         transform: translateY(-1px);
         box-shadow: 0 4px 8px rgba(255, 152, 0, 0.3);
       }
+      
+      .btn-success {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #2ecc71;
+        border-color: #2ecc71;
+        color: #fff;
+        transition: all 0.3s ease;
+      }
+      .btn-success:hover {
+        background-color: #27ae60;
+        border-color: #27ae60;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(46, 204, 113, 0.3);
+      }
+      
+      .btn-danger {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #e74c3c;
+        border-color: #e74c3c;
+        color: #fff;
+        transition: all 0.3s ease;
+      }
+      .btn-danger:hover {
+        background-color: #c0392b;
+        border-color: #c0392b;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(231, 76, 60, 0.3);
+      }
+      
       .upload-section {
-        background-color: #303030; /* Slightly lighter than sidebar for contrast */
+        background-color: #303030;
         padding: 15px;
         border-radius: 8px;
         margin-bottom: 20px;
@@ -89,6 +141,20 @@ ui <- fluidPage(
         border-color: #764ba2;
         background-color: #353535;
       }
+      
+      .annotation-section {
+        background-color: #303030;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: 2px solid #2ecc71;
+        transition: all 0.3s ease;
+      }
+      .annotation-section:hover {
+        border-color: #27ae60;
+        background-color: #353535;
+      }
+      
       .nav-tabs {
         border-bottom: 2px solid #404040;
       }
@@ -113,6 +179,12 @@ ui <- fluidPage(
         color: #e0e0e0;
         font-weight: 500;
         margin-bottom: 15px;
+        margin-top: 15px;
+      }
+      .nav-tabs + .tab-content h4 {
+        border-bottom: 2px solid #667eea;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
       }
       label {
         color: #b0b0b0 !important;
@@ -126,9 +198,9 @@ ui <- fluidPage(
         margin: 20px 0;
       }
       
-      /* Fix for selectize input visibility with improved contrast */
+      /* Selectize styling */
       .selectize-input {
-        background-color: #303030 !important; /* Slightly lighter for better contrast */
+        background-color: #303030 !important;
         border: 1px solid #454545 !important;
         color: #e0e0e0 !important;
         transition: all 0.3s ease;
@@ -167,7 +239,7 @@ ui <- fluidPage(
         color: #ffffff !important;
       }
       
-      /* Form controls with better contrast */
+      /* Form controls */
       .form-control {
         background-color: #303030 !important;
         border: 1px solid #454545 !important;
@@ -181,7 +253,7 @@ ui <- fluidPage(
         box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
       }
       
-      /* File input specific styling */
+      /* File input */
       .btn-default {
         background-color: #303030 !important;
         border: 1px solid #454545 !important;
@@ -192,12 +264,10 @@ ui <- fluidPage(
         border-color: #667eea !important;
       }
       
-      /* Form group styling */
       .form-group {
         background-color: transparent !important;
       }
       
-      /* Control label */
       .control-label {
         color: #b0b0b0 !important;
       }
@@ -266,7 +336,6 @@ ui <- fluidPage(
         background-color: #1a1a1a;
       }
       
-      /* Main panel background to match */
       .col-sm-9 {
         background-color: #1a1a1a !important;
       }
@@ -286,6 +355,39 @@ ui <- fluidPage(
       }
       .credits-footer strong {
         color: #e0e0e0;
+      }
+      .credits-footer a {
+        color: #667eea;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+      .credits-footer a:hover {
+        color: #764ba2;
+        text-decoration: underline;
+      }
+      
+      /* Modal styling */
+      .modal-content {
+        background-color: #2d2d2d;
+        color: #e0e0e0;
+        border: 1px solid #404040;
+      }
+      .modal-header {
+        border-bottom: 1px solid #404040;
+      }
+      .modal-footer {
+        border-top: 1px solid #404040;
+      }
+      .modal-title {
+        color: #e0e0e0;
+      }
+      .close {
+        color: #e0e0e0;
+        opacity: 0.8;
+      }
+      .close:hover {
+        color: #ffffff;
+        opacity: 1;
       }
     "))
   ),
@@ -318,22 +420,29 @@ ui <- fluidPage(
             ),
             placeholder = "Choose file or use default..."
           ),
-          selectInput(
-            inputId = "separator",
-            label = "Separator (for text files):",
-            choices = c(
-              "Comma" = ",",
-              "Semicolon" = ";",
-              "Tab" = "\t",
-              "Space" = " ",
-              "Pipe" = "|"
+          fluidRow(
+            column(8,
+                   selectInput(
+                     inputId = "separator",
+                     label = "Separator:",
+                     choices = c(
+                       "Comma" = ",",
+                       "Semicolon" = ";",
+                       "Tab" = "\t",
+                       "Space" = " ",
+                       "Pipe" = "|"
+                     ),
+                     selected = ","
+                   )
             ),
-            selected = ","
-          ),
-          checkboxInput(
-            inputId = "header",
-            label = "First row is header",
-            value = TRUE
+            column(4,
+                   br(),  # Add spacing to align checkbox vertically
+                   checkboxInput(
+                     inputId = "header",
+                     label = "Header",
+                     value = TRUE
+                   )
+            )
           )
       ),
       
@@ -353,8 +462,27 @@ ui <- fluidPage(
         label = "Select Tag Column:",
         choices = NULL
       ),
+      
       hr(),
-      actionButton("reset_selection", "🔄 Reset Selection", class = "btn-warning")
+      
+      # Annotation section
+      div(class = "annotation-section",
+          checkboxInput(
+            inputId = "annotation_mode",
+            label = HTML("<b>Annotation Mode</b><br/><small>Draw shapes or add pins to create named areas</small>"),
+            value = FALSE
+          ),
+          fileInput(
+            inputId = "load_annotations_file",
+            label = "Load Annotations:",
+            accept = ".json",
+            placeholder = "Choose JSON file..."
+          ),
+          div(class = "button-row",
+              downloadButton("download_annotations", "💾 Save", class = "btn-success"),
+              actionButton("undo_annotation", "↩️ Undo", class = "btn-warning")
+          )
+      )
     ),
     
     mainPanel(
@@ -390,16 +518,45 @@ ui <- fluidPage(
             color = "#764ba2",
             size = 1.2
           )
+        ),
+        tabPanel(
+          "📊 Stats",
+          br(),
+          fluidRow(
+            column(
+              width = 12,
+              h4("Summary Statistics"),
+              withSpinner(
+                DTOutput("summary_stats_table"),
+                type = 5,
+                color = "#667eea",
+                size = 1.0
+              )
+            )
+          ),
+          br(),
+          fluidRow(
+            column(
+              width = 12,
+              h4("Tag Counts"),
+              withSpinner(
+                DTOutput("tag_counts_table"),
+                type = 5,
+                color = "#667eea",
+                size = 1.0
+              )
+            )
+          )
         )
       )
     )
   ),
   
-  # Credits Footer
+  # Footer
   hr(),
   div(class = "credits-footer",
-      p(strong("MycoLasso"), " - Interactive Spatial Data Mapping Tool"),
-      p("Created by ", strong("Lucien PIAT"), " | Bioinformatician"),
+      p(strong("MycoLasso v0.0.2"), " - Interactive Spatial Data Mapping Tool"),
+      p("Created by ", tags$a(href = "https://lucienpiat.fr/", target = "_blank", strong("Lucien PIAT")), " | Bioinformatician"),
       p(style = "font-size: 12px; margin-top: 10px;", "Free of use and distribution | MIT License")
   )
 )
