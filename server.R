@@ -358,14 +358,12 @@ server <- function(input, output, session) {
         )
       }
       
-      # Generate color palette
       if (length(unique_values) <= 10) {
-
-        colors <- c("#f44336", "#4a148c", "#0d47a1","#9c27b0" , "#e91e63", 
-                    "#004d40", "#0097a7", "#b71c1c", "#3f51b5", "#880e4f")[1:length(unique_values)]
+        colors <- rainbow(length(unique_values))
+      } else if (length(unique_values) <= 20) {
+        colors <- colorRampPalette(c("red", "blue", "green", "orange", "purple", "brown"))(length(unique_values))
       } else {
-        # For many categories, use the "Plasma" palette
-        colors <- hcl.colors(length(unique_values), "Plasma")
+        colors <- colorRampPalette(c("red", "yellow", "green", "cyan", "blue", "magenta"))(length(unique_values))
       }
       
       colorFactor(palette = colors, domain = unique_values)
